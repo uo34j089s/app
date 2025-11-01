@@ -5,8 +5,8 @@
 </template>
 
 <script setup lang="ts">
-// useMouse
-const { x, y } = useMouse();
+// usePointer tracks both mouse and touch input
+const { x, y } = usePointer();
 
 // Reactive Gradient
 const gradientStyle = computed(() => ({
