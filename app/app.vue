@@ -6,7 +6,7 @@
 
 <script setup lang="ts">
 // usePointer tracks both mouse and touch input
-const { x, y } = usePointer();
+const { x, y } = usePointer({ target: document });
 
 // Reactive Gradient
 const gradientStyle = computed(() => ({
