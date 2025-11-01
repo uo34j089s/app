@@ -1,0 +1,10 @@
+html,
+body {
+  background-color: black;
+  color: white;
+  overscroll-behavior: none;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
