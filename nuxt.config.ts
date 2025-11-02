@@ -2,8 +2,11 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: false },
-  modules: ["@vueuse/nuxt"],
+  modules: ["@vueuse/nuxt", "nuxt-gtag"],
   css: ["~/assets/css/style.css", "~/assets/css/reset.css"],
+  gtag: {
+    id: "G-59DKYJ5ZGS",
+  },
   app: {
     head: {
       title: "Index, the modern investing stack.",
